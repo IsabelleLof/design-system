@@ -1,0 +1,7 @@
+:root {
+    --color-primary: #0070f3; /* Define your primary color */
+    --color-secondary: #ff4081; /* Define your secondary color */
+    --font-body: 'Roboto', sans-serif; /* Example font */
+    --border-radius: 4px; /* Border radius for buttons */
+  }
+  

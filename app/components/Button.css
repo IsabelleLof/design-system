@@ -1,0 +1,27 @@
+.btn {
+    padding: 10px 20px; /* Padding för knappen */
+    border: none; /* Ingen kantlinje */
+    border-radius: var(--border-radius); /* Använd CSS-variabel för hörnradie */
+    cursor: pointer; /* Handen vid hover */
+    font-size: 16px; /* Teckenstorlek */
+    transition: background-color 0.3s ease; /* Övergångseffekt för hover */
+  }
+  
+  .btn-primary {
+    background-color: var(--color-primary); /* Primär bakgrundsfärg */
+    color: white; /* Textfärg */
+  }
+  
+  .btn-primary:hover {
+    background-color: #005bb5; /* Mörkare nyans vid hover */
+  }
+  
+  .btn-secondary {
+    background-color: var(--color-secondary); /* Sekundär bakgrundsfärg */
+    color: white; /* Textfärg */
+  }
+  
+  .btn-secondary:hover {
+    background-color: #c60055; /* Mörkare nyans vid hover */
+  }
+  
