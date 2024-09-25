@@ -1,0 +1,87 @@
+/* Container for the datepicker */
+.container {
+  display: inline;
+}
+
+
+.datepicker {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header for month navigation */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+/* Button styles */
+.header button {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 5px;
+  transition: color 0.2s ease;
+}
+
+.header button:hover {
+  color: #0070f3;
+}
+
+/* Grid for day labels (Sun, Mon, etc.) */
+.day-labels {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Grid for the actual days in the month */
+.days-grid {
+  display: grid;
+  grid-template-rows: repeat(7, 1fr);
+  gap: 5px;
+}
+
+/* Each day square */
+.day {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.day:hover {
+  background-color: #eaeaea;
+}
+
+.selected {
+  background-color: #0070f3;
+  color: white;
+}
+
+/* Empty day boxes */
+.empty-day {
+  visibility: hidden;
+}
+
+/* Day label styling (Sun, Mon, etc.) */
+.day-label {
+  padding: 10px 0;
+  color: #666;
+  font-size: 0.9rem;
+}
